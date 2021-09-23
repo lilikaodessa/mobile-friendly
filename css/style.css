@@ -62,3 +62,20 @@ footer{
     text-align: center;
     color: white;
 }
+
+
+  @media only screen and (max-width: 1024px) {
+    .title {
+     color: rgb(7, 233, 7);
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .title {
+      color: yellow;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .title{
+      color: red;
+    }
+  }
